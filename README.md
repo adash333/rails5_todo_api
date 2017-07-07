@@ -1,25 +1,37 @@
-# README
+# Todo samples by Rails5 (API mode) and Ionic3.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails5APIとionic3によるTodoアプリ の、 Rails5APIの方
 
-Things you may want to cover:
+詳細は以下
+http://twosquirrel.mints.ne.jp/?p=18681
 
-* Ruby version
+## Requirement
 
-* System dependencies
+- Node.js
+- Ionic CLI
 
-* Configuration
+## Installation
 
-* Database creation
+    $ git clone git@github.com:adash333/ionic3-http.git
+    $ cd ionic3-http
+    $ npm install @ionic/app-scripts@latest --save-dev
+    $ npm install
+    $ ionic serve
 
-* Database initialization
+androidアプリの作成
 
-* How to run the test suite
+    $ ionic platform add android
+    $ ionic build android
 
-* Services (job queues, cache servers, search engines, etc.)
+## Anything Else
 
-* Deployment instructions
+このコードは、以下のサイトのソースコードをIonic3で書き換えてみようと努力した結果です。  
 
-* ...
-"# rails5_todo_api" 
+20161221  
+Rails 5 + Angular2 + TypeScript でTodoアプリを作った。  
+http://yasun.hatenablog.jp/entry/2016/12/21/235334
+
+
+## Author
+
+adash333

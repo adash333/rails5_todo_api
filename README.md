@@ -7,21 +7,16 @@ http://twosquirrel.mints.ne.jp/?p=18681
 
 ## Requirement
 
+- Rails 5
 - Node.js
 - Ionic CLI
 
 ## Installation
 
-    $ git clone git@github.com:adash333/ionic3-http.git
-    $ cd ionic3-http
-    $ npm install @ionic/app-scripts@latest --save-dev
-    $ npm install
-    $ ionic serve
-
-androidアプリの作成
-
-    $ ionic platform add android
-    $ ionic build android
+    $ git clone git@github.com:adash333/rails5_todo_api.git
+    $ cd rails5_todo_api.git
+    $ bundle install
+    $ rails s
 
 ## Anything Else
 
